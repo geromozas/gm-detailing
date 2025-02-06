@@ -1,0 +1,29 @@
+#boxServices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+  color: white;
+  background-color: white;
+}
+
+.boxMotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service {
+  width: 800px;
+  padding: 30px;
+  color: black;
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 2;
+}
+
+.boxVehiculos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

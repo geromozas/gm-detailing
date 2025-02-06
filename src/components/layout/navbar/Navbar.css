@@ -1,0 +1,20 @@
+#boxNavbar {
+  height: 100px;
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+button {
+  border-radius: 4px;
+  /* width: 150px; */
+  height: 40px;
+  margin-right: 40px;
+  border: none;
+  background-color: #1f2937;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}

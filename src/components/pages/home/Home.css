@@ -1,0 +1,19 @@
+#boxHome {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 200px;
+}
+
+.aboutMe {
+  width: 700px;
+  color: white;
+}
+
+.pictureLogo {
+  border-radius: 50px;
+  height: 400px;
+}
+
+.turno {
+  width: 250px;
+}
