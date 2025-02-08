@@ -5,16 +5,16 @@ const Services = () => {
     <div id="boxServices">
       <h1
         style={{
-          fontSize: 40,
-          color: "black",
+          fontSize: 50,
+          color: "white",
           marginBottom: 40,
           marginTop: 40,
         }}
       >
         Nuestros Servicios
       </h1>
-      <h2 style={{ marginBottom: 20, fontSize: 30, color: "black" }}>Motos</h2>
-      <hr style={{ width: "100%" }} />
+      <h2 style={{ marginBottom: 30, fontSize: 40, color: "white" }}>Motos</h2>
+
       <div className="boxMotos">
         <div className="service">
           <h2 style={{ marginBottom: 10 }}>Lavado Basico</h2>
@@ -98,13 +98,11 @@ const Services = () => {
             <li>Rejuvenecimiento de plásticos, gomas.</li>
             <li>
               Aplicación de cera en pasta para dar mucho brillo, protección a la
-              pintura y repelencia al agua. (Duración 6 a 8 meses).
+              pintura y repelencia al agua (Duración 6 a 8 meses).
             </li>
           </ul>
-          <p>⌛Tiempo estimado: 4 - 5 horas.</p>
-          <p>
-            💎 Se trabaja todo por sector para no dejar nada sin detallar 💎
-          </p>
+          <p>⌛Tiempo estimado: +4 horas.</p>
+          <p>💎Se trabaja todo por sector para no dejar nada sin detallar💎</p>
           <p>
             <strong style={{ fontSize: 20 }}>💲75.000</strong>
           </p>
@@ -112,15 +110,14 @@ const Services = () => {
       </div>
       <h2
         style={{
-          color: "black",
-          marginBottom: 20,
+          color: "white",
+          marginBottom: 30,
           marginTop: 20,
-          fontSize: 30,
+          fontSize: 40,
         }}
       >
         Autos y Camionetas
       </h2>
-      <hr style={{ width: "100%" }} />
       <div className="boxVehiculos">
         <div className="service">
           <h2 style={{ marginBottom: 10 }}>Lavado Básico</h2>
@@ -197,7 +194,7 @@ const Services = () => {
             <li>Aplicación de rejuvenecedor de plásticos interiores,</li>
             <li>
               Aplicación de cera en pasta para dar mucho brillo, protección a la
-              pintura y repelencia al agua. (Duración 6 a 8 meses).
+              pintura y repelencia al agua (Duración 6 a 8 meses).
             </li>
           </ul>
           <p>⌛Tiempo estimado: +4 horas.</p>
@@ -207,7 +204,7 @@ const Services = () => {
           <p>
             <strong>Camioneta: 💲120.000</strong>
           </p>
-          <p>💎 Resultados que destacan tu vehículo como nuevo. 💎</p>
+          <p>💎Resultados que destacan tu vehículo como nuevo💎</p>
         </div>
       </div>
     </div>

@@ -1,3 +1,4 @@
+import { Footer } from "./components/layout/footer/Footer";
 import { Navbar } from "./components/layout/navbar/Navbar";
 import Contact from "./components/pages/contact/Contact";
 import Home from "./components/pages/home/Home";
@@ -10,6 +11,7 @@ function App() {
       <Home />
       <Services />
       <Contact />
+      <Footer />
     </div>
   );
 }
