@@ -12,7 +12,9 @@ const Home = () => {
           brillo original. Nuestra atención al detalle y compromiso con la
           calidad nos distingue en cada servicio.
         </p>
-        <button className="turno">Reserva tu turno</button>
+        <a href="https://wa.me/549XXXXXXXXX?text=Hola%2C%20quisiera%20reservar%20un%20turno">
+          <button className="turno">Reserva tu turno</button>
+        </a>
       </div>
       <div className="BoxPictureLogo">
         <img

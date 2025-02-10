@@ -15,7 +15,10 @@ const Contact = () => {
       <div className="datesContact">
         <p>Ubicación: Rosario, Santa Fe, Argentina</p>
         <div className="contactIcons">
-          <a href="">
+          <a
+            href="https://wa.me/549XXXXXXXXX?text=Hola%2C%20quisiera%20reservar%20un%20turno"
+            target="_blank"
+          >
             <img
               src="https://res.cloudinary.com/ddmvo0ert/image/upload/v1738954589/gm-detailing/logo-wsp_z38a6i.jpg"
               alt=""
