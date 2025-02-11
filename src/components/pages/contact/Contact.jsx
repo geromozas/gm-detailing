@@ -13,14 +13,14 @@ const Contact = () => {
           >
             <img
               src="https://res.cloudinary.com/ddmvo0ert/image/upload/v1738954589/gm-detailing/logo-wsp_z38a6i.jpg"
-              alt=""
-              style={{ width: 47, borderRadius: 12 }}
+              alt="logoWsp"
+              style={{ width: 45, height: 45, marginTop: 3, borderRadius: 10 }}
             />
           </a>
           <a href="">
             <img
               src="https://res.cloudinary.com/ddmvo0ert/image/upload/v1738873932/gm-detailing/insta-Logo_vu1wev.png"
-              alt=""
+              alt="logoInsta"
               style={{ width: 50 }}
             />
           </a>
