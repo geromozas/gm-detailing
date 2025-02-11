@@ -4,6 +4,16 @@
   margin-top: 200px;
 }
 
+.titleHome {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.textHome {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
 .aboutMe {
   width: 700px;
   color: white;
@@ -14,6 +24,67 @@
   height: 400px;
 }
 
-.turno {
+.buttonTurno {
   width: 250px;
+  border-radius: 4px;
+  height: 40px;
+  border: none;
+  background-color: #1f2937;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .aboutMe {
+    width: 400px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .pictureLogo {
+    width: 350px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 850px) {
+  #boxHome {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .pictureLogo {
+    margin-bottom: 30px;
+  }
+  .titleHome {
+    font-size: 30px;
+    justify-self: center;
+  }
+  .textHome {
+    text-align: justify;
+    font-size: 20px;
+  }
+  .boxButtonTurno {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .titleHome {
+    font-size: 20px;
+  }
+  .textHome {
+    font-size: 17px;
+  }
+  .aboutMe {
+    width: 300px;
+  }
+}
+
+@media (max-width: 375px) {
+  .pictureLogo {
+    width: 300px;
+    height: 275px;
+  }
 }

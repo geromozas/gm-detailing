@@ -7,14 +7,44 @@
   justify-content: space-around;
 }
 
-button {
+.boxButtonsNav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.buttonNav {
   border-radius: 4px;
-  /* width: 150px; */
   height: 40px;
-  margin-right: 40px;
   border: none;
   background-color: #1f2937;
   font-size: 20px;
   color: white;
   cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .logoNavbar {
+    width: 400px;
+  }
+  .buttonNav {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 850px) {
+  .logoNavbar {
+    width: 300px;
+  }
+}
+
+@media (max-width: 750px) {
+  #boxNavbar {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 375px) {
+  .buttonNav {
+    font-size: 12px;
+  }
 }

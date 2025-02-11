@@ -4,17 +4,17 @@ const Home = () => {
   return (
     <div id="boxHome">
       <div className="aboutMe">
-        <h1 style={{ marginBottom: 20, fontSize: 40 }}>
-          Detailing de excelencia
-        </h1>
-        <p style={{ marginBottom: 20, fontSize: 25 }}>
+        <h1 className="titleHome">Detailing de excelencia</h1>
+        <p className="textHome">
           Somos apasionados por los vehiculos y expertos en devolverles su
           brillo original. Nuestra atención al detalle y compromiso con la
           calidad nos distingue en cada servicio.
         </p>
-        <a href="https://wa.me/549XXXXXXXXX?text=Hola%2C%20quisiera%20reservar%20un%20turno">
-          <button className="turno">Reserva tu turno</button>
-        </a>
+        <div className="boxButtonTurno">
+          <a href="https://wa.me/549XXXXXXXXX?text=Hola%2C%20quisiera%20reservar%20un%20turno">
+            <button className="buttonTurno">Reserva tu turno</button>
+          </a>
+        </div>
       </div>
       <div className="BoxPictureLogo">
         <img

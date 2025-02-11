@@ -6,3 +6,15 @@
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 550px) {
+  .copyRight {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  .copyRight {
+    font-size: 10px;
+  }
+}

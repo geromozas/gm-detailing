@@ -5,6 +5,12 @@
   align-items: center;
 }
 
+.titleContact {
+  font-size: 40px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
 .datesContact {
   font-size: 20px;
   list-style: none;
@@ -15,4 +21,20 @@
 .contactIcons {
   display: flex;
   justify-content: space-evenly;
+}
+
+@media (max-width: 850px) {
+  .titleContact {
+    font-size: 35px;
+  }
+  .textUbic {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 550px) {
+  .titleContact {
+    font-size: 30px;
+  }
 }

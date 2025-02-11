@@ -7,6 +7,19 @@
   background-color: #1f2937;
 }
 
+.ourServices {
+  font-size: 50px;
+  color: white;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.vehiculo {
+  margin-bottom: 30px;
+  font-size: 40px;
+  color: white;
+}
+
 .boxMotos {
   display: flex;
   flex-wrap: wrap;
@@ -29,4 +42,36 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+@media (max-width: 850px) {
+  .service {
+    font-size: 20px;
+    width: 500px;
+  }
+  .vehiculo {
+    font-size: 30px;
+  }
+  .ourServices {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 550px) {
+  .ourServices {
+    font-size: 30px;
+  }
+  .vehiculo {
+    font-size: 25px;
+  }
+  .service {
+    width: 350px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 375px) {
+  .service {
+    width: 300px;
+  }
 }

@@ -3,17 +3,9 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <div id="boxContact">
-      <h1
-        style={{
-          fontSize: 40,
-          marginBottom: 30,
-          marginTop: 40,
-        }}
-      >
-        Contacto
-      </h1>
+      <h1 className="titleContact">Contacto</h1>
       <div className="datesContact">
-        <p>Ubicación: Rosario, Santa Fe, Argentina</p>
+        <p className="textUbic">Ubicación: Rosario, Santa Fe, Argentina</p>
         <div className="contactIcons">
           <a
             href="https://wa.me/549XXXXXXXXX?text=Hola%2C%20quisiera%20reservar%20un%20turno"

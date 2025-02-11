@@ -3,18 +3,8 @@ import "./Services.css";
 const Services = () => {
   return (
     <div id="boxServices">
-      <h1
-        style={{
-          fontSize: 50,
-          color: "white",
-          marginBottom: 40,
-          marginTop: 40,
-        }}
-      >
-        Nuestros Servicios
-      </h1>
-      <h2 style={{ marginBottom: 30, fontSize: 40, color: "white" }}>Motos</h2>
-
+      <h1 className="ourServices">Nuestros Servicios</h1>
+      <h2 className="vehiculo">Motos</h2>
       <div className="boxMotos">
         <div className="service">
           <h2 style={{ marginBottom: 10 }}>Lavado Basico</h2>
@@ -108,16 +98,7 @@ const Services = () => {
           </p>
         </div>
       </div>
-      <h2
-        style={{
-          color: "white",
-          marginBottom: 30,
-          marginTop: 20,
-          fontSize: 40,
-        }}
-      >
-        Autos y Camionetas
-      </h2>
+      <h2 className="vehiculo">Autos y Camionetas</h2>
       <div className="boxVehiculos">
         <div className="service">
           <h2 style={{ marginBottom: 10 }}>Lavado Básico</h2>
