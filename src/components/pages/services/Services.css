@@ -14,10 +14,33 @@
   margin-top: 40px;
 }
 
+.categoryButtons {
+  display: flex;
+}
+
+.buttonServices {
+  width: 175px;
+  border-radius: 4px;
+  height: 40px;
+  border: none;
+  background-color: #111827;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: 0.5s;
+}
+
+.buttonServices:hover {
+  width: 200px;
+  height: 45px;
+}
+
 .vehiculo {
   margin-bottom: 30px;
   font-size: 40px;
   color: white;
+  justify-self: center;
 }
 
 .boxMotos {
@@ -31,7 +54,7 @@
   padding: 30px;
   color: white;
   margin-bottom: 20px;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 2;
   border-radius: 15px;
   padding: 40px;
@@ -73,5 +96,8 @@
 @media (max-width: 375px) {
   .service {
     width: 300px;
+  }
+  .categoryButtons {
+    flex-direction: column;
   }
 }

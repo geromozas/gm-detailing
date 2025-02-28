@@ -10,15 +10,17 @@ export const Navbar = () => {
         style={{ borderRadius: 10 }}
       />
       <div className="boxButtonsNav">
-        <button className="buttonNav" style={{ marginRight: 40 }}>
-          SERVICIOS
-        </button>
+        <a href="#boxServices">
+          <button className="buttonNav" style={{ marginRight: 40 }}>
+            SERVICIOS
+          </button>
+        </a>
         {/* <button>GALERÍA</button> */}
         {/* <button>OPINIONES</button> */}
-        <button className="buttonNav" style={{ marginRight: 40 }}>
-          CONTACTO
-        </button>
-        <button className="buttonNav">PREGUNTAS</button>
+        <a href="#boxContact">
+          <button className="buttonNav">CONTACTO</button>
+        </a>
+        {/* <button className="buttonNav">PREGUNTAS</button> */}
         {/* <button>BLOG</button> */}
       </div>
     </div>
